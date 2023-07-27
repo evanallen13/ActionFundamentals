@@ -1,8 +1,8 @@
 
 FROM alpine
 
-CMD ["echo", "Hello WOrld"]
+COPY entrypoint.sh /entrypoint.sh
 
-# COPY entrypoint.sh /entrypoint.sh
+CMD ["echo", "Hello WOrld"]
 
 # ENTRYPOINT ["/entrypoint.sh"]
